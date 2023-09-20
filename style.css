@@ -27,6 +27,7 @@ textarea {
 }
 
 header{
+  background-color: #0A192F;
     display: flex;
     justify-content: space-between;
     padding: 0px 30px;
@@ -49,7 +50,7 @@ header{
      align-items: center;
      font-weight: bold;
      font-size: 15px;
-     color:rgb(77, 75, 75);
+     color:#CCD6F5;
 }
       
 
@@ -70,7 +71,7 @@ a{
 nav>ul a {
     display: block;
     padding: 35px 20px;
-    color:rgb(77, 75, 75);
+    color:#CCD6F5;
   }
 
   nav> ul a:hover{
@@ -78,10 +79,7 @@ nav>ul a {
   }
 
   .home {
-    background: linear-gradient(to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)),
-    url(../assets/common-bg.svg);
+  background-color: #0A192F;
   background-position: center;
 
   padding: 15% 10%;
@@ -90,7 +88,7 @@ nav>ul a {
   grid-template-rows: auto auto auto;
   row-gap: 50px;
   text-align: center;
-  color: white;
+  color: #CCD6F5;
 }
   
   h1{
@@ -102,7 +100,7 @@ nav>ul a {
   }
 
   .home>p {
-    color: #fff;
+    color: #CCD6F5;
     font-size: 1.6rem;
     line-height: 1.6;
     margin: 0px 50px;
@@ -110,7 +108,7 @@ nav>ul a {
   }
   
 .botao{
-    background: #0062b9;
+    background: #0A192F;
     color: #fff;
     padding: 1.2rem 3rem;
     font-size: 0.8rem;
@@ -122,13 +120,17 @@ nav>ul a {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     transition: transform .3s;
 }
+
+.home{
+  padding-top: 100px;
+}
   .home.botao {
     display: flex;
     justify-content: center;
   }
   
   .home .botao {
-    background-color: white;
+    background-color:#CCD6F5;
     color: black;
     padding: 1.4rem 4rem;
     font-size: 1rem;
@@ -172,7 +174,7 @@ h2::after {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 2rem;
-  background: #0062b9;
+  background:#0A192F;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -180,12 +182,13 @@ h2::after {
 
 .paragrafo{
   font-size: 1.2rem;
-  color: grey;
+  color:#0A192F;
   line-height: 1.7;
 }
 
 .about{
   padding-bottom: 10px;
+  background-color: #CCD6F5;
 }
 
 .about-grid{
@@ -204,6 +207,7 @@ h2::after {
 h3 {
   font-weight: 700;
   font-size: 1.8rem;
+  color:#0A192F ;
 }
     
 .about-grid ul {
@@ -218,13 +222,17 @@ h3 {
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
   font-weight: 600;
-  color: #777;
+  color:#0A192F;
 }
 
 .about-grid>p {
   margin: 0px 150px;
 }
 
+.projects>p{ 
+  color:#0A192F ;
+}
+  
 
 
 .projects>ul li {
@@ -254,7 +262,7 @@ h3 {
 
 .project-content>p{
   font-size: 1.2rem;
-    color: grey;
+    color:#0A192F;
     max-width: 30rem;
     line-height: 1.7;
     margin-bottom: 3rem;
@@ -268,7 +276,7 @@ h3 {
 }
 
 .project-content>.botao{
-  background-color: #437ec3;
+  background-color: #0A192F;
   padding: 1rem 3rem;
   font-size: 1rem;
   color: #fff;
@@ -283,10 +291,7 @@ h3 {
 }
 
 .section-contact {
-  background: linear-gradient(to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)),
-    url(../assets/common-bg.svg);
+  background:#0A192F;
   background-position: center;
 
 }
@@ -297,11 +302,11 @@ h3 {
 
 .section-contact>h2,
 .section-contact>.subtitle {
-  color: #fff;
+  color: #CCD6F5 ;
 }
 
 .section-contact>h2::after {
-  background: #fff;
+  background: #CCD6F5;
 }
 
 .section-contact>form {
@@ -441,6 +446,7 @@ footer>.footer-top {
     font-size: 1.2rem;
   }
 
+  
   .about-grid {
     /* Change number of columns */
     grid-template-columns: 1fr;
