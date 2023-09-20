@@ -50,7 +50,7 @@ header{
      align-items: center;
      font-weight: bold;
      font-size: 15px;
-     color:#CCD6F5;
+     color:#9d02d9;
 }
       
 
@@ -71,7 +71,7 @@ a{
 nav>ul a {
     display: block;
     padding: 35px 20px;
-    color:#CCD6F5;
+    color:#9d02d9;
   }
 
   nav> ul a:hover{
@@ -88,7 +88,7 @@ nav>ul a {
   grid-template-rows: auto auto auto;
   row-gap: 50px;
   text-align: center;
-  color: #CCD6F5;
+  color:#9d02d9;
 }
   
   h1{
@@ -100,7 +100,7 @@ nav>ul a {
   }
 
   .home>p {
-    color: #CCD6F5;
+    color: #9d02d9;
     font-size: 1.6rem;
     line-height: 1.6;
     margin: 0px 50px;
@@ -109,9 +109,9 @@ nav>ul a {
   
 .botao{
     background: #0A192F;
-    color: #fff;
+    color: #9d02d9;
     padding: 1.2rem 3rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: inline-block;
@@ -122,7 +122,7 @@ nav>ul a {
 }
 
 .home{
-  padding-top: 100px;
+  padding-top: 80px;
 }
   .home.botao {
     display: flex;
@@ -130,7 +130,7 @@ nav>ul a {
   }
   
   .home .botao {
-    background-color:#CCD6F5;
+    background-color:#9d02d9;
     color: black;
     padding: 1.4rem 4rem;
     font-size: 1rem;
@@ -150,7 +150,7 @@ nav>ul a {
  .subtitulo{
   text-align: center;
     display: block;
-    color: #777;
+    color: #9d02d9;
     font-size: 1.4rem;
     font-weight: 500;
     margin: 0px 10rem;
@@ -182,7 +182,7 @@ h2::after {
 
 .paragrafo{
   font-size: 1.2rem;
-  color:#0A192F;
+  color: grey;
   line-height: 1.7;
 }
 
@@ -207,7 +207,7 @@ h2::after {
 h3 {
   font-weight: 700;
   font-size: 1.8rem;
-  color:#0A192F ;
+  color: #9d02d9;
 }
     
 .about-grid ul {
@@ -222,13 +222,16 @@ h3 {
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
   font-weight: 600;
-  color:#0A192F;
+  color: #9d02d9;
 }
 
 .about-grid>p {
   margin: 0px 150px;
 }
 
+strong{
+  color: #9d02d9;
+}
 .projects>p{ 
   color:#0A192F ;
 }
@@ -276,10 +279,10 @@ h3 {
 }
 
 .project-content>.botao{
-  background-color: #0A192F;
+  background-color: #061120;
   padding: 1rem 3rem;
   font-size: 1rem;
-  color: #fff;
+  color:#9d02d9;
 }
 
 .img-project{
@@ -302,7 +305,7 @@ h3 {
 
 .section-contact>h2,
 .section-contact>.subtitle {
-  color: #CCD6F5 ;
+  color:#9d02d9 ;
 }
 
 .section-contact>h2::after {
