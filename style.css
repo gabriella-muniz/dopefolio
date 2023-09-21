@@ -31,7 +31,7 @@ textarea {
 .subtitulo{
   text-align: center;
     display: block;
-    color: #9d02d9;
+    color: rgb(34, 34, 34);
     font-size: 1.4rem;
     font-weight: 500;
     margin: 0px 10rem;
@@ -47,6 +47,7 @@ h2 {
   text-align: center;
   position: relative;
   margin-bottom: 50px;
+  color: #9d02d9;
 }
 
 h2::after {
@@ -63,7 +64,7 @@ h2::after {
 
 .paragrafo{
   font-size: 1.2rem;
-  color: grey;
+  color:rgb(34, 34, 34);
   line-height: 1.7;
 }
 
@@ -102,7 +103,7 @@ header{
      align-items: center;
      font-weight: bold;
      font-size: 15px;
-     color:#9d02d9;
+     color: #CCD6F5;
 }
       
 nav>ul{
@@ -115,11 +116,16 @@ nav>ul{
 nav>ul a {
     display: block;
     padding: 35px 20px;
-    color:#9d02d9;
+    color: #CCD6F5;
   }
 
 nav> ul a:hover{
-    color: rgba(0, 98, 185, 0.8);
+    color: #9d02d9;
+  }
+
+.header-perfil>span:hover{
+    color: #9d02d9;
+
   }
 
   
@@ -132,11 +138,11 @@ nav> ul a:hover{
   grid-template-rows: auto auto auto;
   row-gap: 50px;
   text-align: center;
-  color:#9d02d9;
   padding-top: 80px;
 }
   
   h1{
+    color:  #CCD6F5;
     font-size:3.6rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -145,7 +151,7 @@ nav> ul a:hover{
   }
 
   .home>p {
-    color: #9d02d9;
+    color:  #CCD6F5;
     font-size: 1.6rem;
     line-height: 1.6;
     margin: 0px 50px;
@@ -168,6 +174,7 @@ nav> ul a:hover{
 
 .botao:hover {
   transform: translateY(-5px);
+  
 }
 
 .home.botao{
@@ -186,7 +193,7 @@ nav> ul a:hover{
 /* section about  */ 
 
 .about{
-    background-color: #f7f7f7;
+    
     display: block;
     text-align: center;
     padding-bottom: 10px;
