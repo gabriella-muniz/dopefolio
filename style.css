@@ -20,134 +20,15 @@ button {
   outline: inherit;
 }
 
-
+a{
+  text-decoration: none;
+  color: inherit;}
 
 textarea {
   resize: none;
 }
 
-header{
-  background-color: #0A192F;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 30px;
-    border-bottom: 0.5px solid rgba(201, 199, 199, 0.259);
-  
-}
-
-
-.avatar{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-    overflow: hidden;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-.header-perfil{   
-     display: flex;
-     align-items: center;
-     font-weight: bold;
-     font-size: 15px;
-     color:#9d02d9;
-}
-      
-
-
-nav>ul{
-    display: flex;
-    font-weight: bold;
-    margin-right: 50px;
-    font-size: 15px;
-    
-}
-
-a{
-    text-decoration: none;
-    color: inherit;}
-    
-
-nav>ul a {
-    display: block;
-    padding: 35px 20px;
-    color:#9d02d9;
-  }
-
-  nav> ul a:hover{
-    color: rgba(0, 98, 185, 0.8);
-  }
-
-  .home {
-  background-color: #0A192F;
-  background-position: center;
-
-  padding: 15% 10%;
-  align-items: center;
-  display: grid;
-  grid-template-rows: auto auto auto;
-  row-gap: 50px;
-  text-align: center;
-  color:#9d02d9;
-}
-  
-  h1{
-    font-size:3.6rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  .home>p {
-    color: #9d02d9;
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin: 0px 50px;
-    
-  }
-  
-.botao{
-    background: #0A192F;
-    color: #9d02d9;
-    padding: 1.2rem 3rem;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: inline-block;
-    font-weight: 700;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-    transition: transform .3s;
-}
-
-.home{
-  padding-top: 80px;
-}
-  .home.botao {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .home .botao {
-    background-color:#9d02d9;
-    color: black;
-    padding: 1.4rem 4rem;
-    font-size: 1rem;
-    
-  }
-
-  .botao:hover {
-    transform: translateY(-5px);
-  }
-  
-  .about{
-    background-color: #f7f7f7;
-    display: block;
-    text-align: center;
-  }
-
- .subtitulo{
+.subtitulo{
   text-align: center;
     display: block;
     color: #9d02d9;
@@ -186,10 +67,132 @@ h2::after {
   line-height: 1.7;
 }
 
-.about{
-  padding-bottom: 10px;
-  background-color: #CCD6F5;
+h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #9d02d9;
 }
+
+strong{
+  color: #9d02d9;
+}
+
+/* header */
+
+header{
+  background-color: #0A192F;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-bottom: 0.5px solid rgba(201, 199, 199, 0.259);
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.header-perfil{   
+     display: flex;
+     align-items: center;
+     font-weight: bold;
+     font-size: 15px;
+     color:#9d02d9;
+}
+      
+nav>ul{
+    display: flex;
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 15px;  
+}
+
+nav>ul a {
+    display: block;
+    padding: 35px 20px;
+    color:#9d02d9;
+  }
+
+nav> ul a:hover{
+    color: rgba(0, 98, 185, 0.8);
+  }
+
+  
+.home {
+  background-color: #0A192F;
+  background-position: center;
+  padding: 15% 10%;
+  align-items: center;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 50px;
+  text-align: center;
+  color:#9d02d9;
+  padding-top: 80px;
+}
+  
+  h1{
+    font-size:3.6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .home>p {
+    color: #9d02d9;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: 0px 50px;
+    
+  }
+  
+.botao{
+    background: #0A192F;
+    color: #9d02d9;
+    padding: 1.2rem 3rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+}
+
+.botao:hover {
+  transform: translateY(-5px);
+}
+
+.home.botao{
+    display: flex;
+    justify-content: center;
+  }
+  
+.home .botao {
+    background-color:#9d02d9;
+    color: black;
+    padding: 1.4rem 4rem;
+    font-size: 1rem;
+    
+  }
+
+/* section about  */ 
+
+.about{
+    background-color: #f7f7f7;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+  background-color: #CCD6F5;
+  }
+
 
 .about-grid{
   display: grid;
@@ -204,12 +207,6 @@ h2::after {
   margin-bottom: 30px;
 }
 
-h3 {
-  font-weight: 700;
-  font-size: 1.8rem;
-  color: #9d02d9;
-}
-    
 .about-grid ul {
   display: flex;
   flex-wrap: wrap;
@@ -229,14 +226,11 @@ h3 {
   margin: 0px 150px;
 }
 
-strong{
-  color: #9d02d9;
-}
+/* section projects */
+
 .projects>p{ 
   color:#0A192F ;
 }
-  
-
 
 .projects>ul li {
   display: grid;
@@ -245,14 +239,12 @@ strong{
   margin-bottom: 2px;
 }
 
-
 .projects .project-content {
   display: flex;
   row-gap: 30px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  
 }
 
 .projects ul{
@@ -263,6 +255,14 @@ strong{
   margin-top: 50px;
 }
 
+/* section contact */
+
+.section-contact {
+  background:#0A192F;
+  background-position: center;
+
+}
+
 .project-content>p{
   font-size: 1.2rem;
     color:#0A192F;
@@ -270,8 +270,7 @@ strong{
     line-height: 1.7;
     margin-bottom: 3rem;
     padding-left: 0px;
-    padding-top: 20px;
-    
+    padding-top: 20px;  
 }
 
 .project-content>ul{
@@ -292,20 +291,17 @@ strong{
   padding-left: 80px;
   margin-top: 40px;
 }
-
+ 
 .section-contact {
   background:#0A192F;
   background-position: center;
 
 }
 
-.section-contact>p{
-  text-align: center;
-}
-
 .section-contact>h2,
 .section-contact>.subtitle {
   color:#9d02d9 ;
+  text-align: center;
 }
 
 .section-contact>h2::after {
@@ -360,6 +356,8 @@ form button {
   color: #fff;
 }
 
+/* footer */
+
 footer {
   background: #000;
   color: #fff;
@@ -408,7 +406,7 @@ footer>.footer-top {
   
 }
 
-
+/* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (max-width: 768px) {
   .subtitulo {
