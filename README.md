@@ -3,4 +3,4 @@
  Media Queries para responsividade.
 
 # Demo
-Acesse a demonstração do projeto, <a href  > clicando aqui </a>.
+Acesse a demonstração do projeto, <a href="https://gabriella-muniz.github.io/dopefolio/ target="_blank" > clicando aqui </a>.
