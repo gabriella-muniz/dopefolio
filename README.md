@@ -3,7 +3,7 @@
  Media Queries para responsividade.
 ## :smile: Demo 
 
- Tenha acesso ao projeto [clicando aqui.](http://https://gabriella-muniz.github.io/dopefolio/ "clicando aqui")
+  Tenha acesso ao projeto [clicando aqui](http://https://gabriella-muniz.github.io/dopefolio/ "clicando aqui")
 
  ![dopefolio](https://github.com/gabriella-muniz/dopefolio/assets/143722974/ddc559eb-2c01-4aba-9638-a98eeba88054)
 
